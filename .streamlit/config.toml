@@ -1,0 +1,38 @@
+[client]
+showErrorDetails = "none"
+showErrorLinks = false
+toolbarMode = "viewer"
+disableDataExport = true
+
+[runner]
+magicEnabled = false
+fastReruns = true
+enforceSerializableSessionState = true
+
+[server]
+headless = true
+runOnSave = false
+enableCORS = true
+enableXsrfProtection = true
+xsrfCookieSameSite = "lax"
+maxUploadSize = 5
+maxMessageSize = 64
+enableWebsocketCompression = true
+enableStaticServing = false
+disconnectedSessionTTL = 120
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+level = "info"
+
+[theme]
+base = "dark"
+primaryColor = "#14B8A6"
+backgroundColor = "#07111F"
+secondaryBackgroundColor = "#0F1D2E"
+textColor = "#E2E8F0"
+font = "sans-serif"
+showSidebarBorder = true
+chartCategoricalColors = ["#14B8A6", "#F43F5E", "#94A3B8", "#F59E0B", "#38BDF8"]
